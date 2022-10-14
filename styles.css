@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,500&family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm&family=Poppins:ital,wght@0,100;1,500&family=Roboto:wght@100;300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main{
+    background-color: #EEEEEE;
+    margin: 20px 5px;
+    padding: 60px 15px 15px 15px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 4px;
+}
+#title{
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 25px;
+    color: #333333;
+    letter-spacing: 1px;
+}
+#sub-title{
+    font-size: 0.9rem;
+    text-align: center;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+#img-div{
+    background-color: #FFFFFF;
+}
+#image{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+#img-caption{
+    padding: 15px 20px 15px 20px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    margin: auto;
+    width: 86%;
+}
+#tribute-info{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+#tribute-info > h2{
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+}
+#tribute-info > ul > li{
+    margin-bottom: 1.5rem;
+}
+#litle-info{
+    margin-top: 40px;
+    font-family: 'Charm', cursive;
+    font-size: 18px;
+    font-weight: 100;
+}
+#url-info{
+    margin-top: 50px;
+    font-size: 1.3em;
+    color: #3a3939;
+    font-weight: 600;
+    text-align: center;
+}
+
+@media (min-width: 647px) {
+    #img-div{
+        margin-bottom: 40px;
+    }
+    #tribute-info{
+        width: 647px;
+        margin: auto;
+    }
+}
